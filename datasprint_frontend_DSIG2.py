@@ -41,7 +41,7 @@ def image_processor2():
 
 window.geometry("1000x550")
 
-bg_pic=tk.PhotoImage(file="C:\\Users\\deept\\OneDrive\\Pictures\\Screenshots\\Screenshot 2025-08-28 162615.png")
+bg_pic=tk.PhotoImage(file="./background.jpg")
 label_bg=tk.Label(window,image=bg_pic)
 label_bg.pack()
 
@@ -58,3 +58,4 @@ button_ml.place(relx=0.6,rely=0.6)
 
 
 window.mainloop()
+
